@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# Downloads all images used by the site into the img folder
+cd "$(dirname "$0")" && mkdir -p img
+curl -L -o "img/logo-orig.png" "https://assistia.ca/wp-content/uploads/2023/07/assistaia-logoo-r47kjztea68om22tmqji584i93vfgrvacz79uu9864.png"
+curl -L -o "img/CoffeeAD.jpg" "https://assistia.ca/wp-content/uploads/2025/07/CoffeeAD.jpg"
+curl -L -o "img/Custom-Design.jpg" "https://assistia.ca/wp-content/uploads/2025/07/Custom-Design.jpg"
+curl -L -o "img/image-album.png" "https://assistia.ca/wp-content/uploads/2023/08/image-album.png"
+curl -L -o "img/logo-white.png" "https://assistia.ca/wp-content/uploads/2023/07/logo-white-2.png"
+curl -L -o "img/favicon.webp" "https://assistia.ca/wp-content/uploads/2025/08/cropped-favicon-1-270x270.webp"
+curl -L -o "img/Assistia-Sales.gif" "https://assistia.ca/wp-content/uploads/2025/07/Assistia-Sales.gif"
+curl -L -o "img/Assistia-Canada-Web-Design-1.jpg" "https://assistia.ca/wp-content/uploads/2025/07/Assistia-Canada-Web-Design-1.jpg"
+curl -L -o "img/image-01.jpg" "https://assistia.ca/wp-content/uploads/2023/07/image-01.jpg"
+curl -L -o "img/image-02.jpg" "https://assistia.ca/wp-content/uploads/2023/07/image-02.jpg"
+curl -L -o "img/image-03.jpg" "https://assistia.ca/wp-content/uploads/2023/07/image-03.jpg"
+curl -L -o "img/Assistia-Toronto.jpg" "https://assistia.ca/wp-content/uploads/2025/07/Assistia-Toronto.jpg"
+curl -L -o "img/Assistia-Canada.jpg" "https://assistia.ca/wp-content/uploads/2025/07/Assistia-Canada.jpg"
+curl -L -o "img/image-app.png" "https://assistia.ca/wp-content/uploads/2023/07/image-app.png"
+curl -L -o "img/AssistiaDigitalSignage-600x540.webp" "https://assistia.ca/wp-content/uploads/2025/08/AssistiaDigitalSignage-600x540.webp"
+curl -L -o "img/pizzamile-norway-portfolio-600x540.jpg" "https://assistia.ca/wp-content/uploads/2023/08/pizzamile-norway-portfolio-600x540.jpg"
+curl -L -o "img/iPromo-Portfolio-600x540.jpg" "https://assistia.ca/wp-content/uploads/2023/08/iPromo-Portfolio-600x540.jpg"
+curl -L -o "img/Assistia-Portfolio-2-600x540.jpg" "https://assistia.ca/wp-content/uploads/2023/08/Assistia-Portfolio-2-600x540.jpg"
+echo "Done! Images saved in the img folder."
